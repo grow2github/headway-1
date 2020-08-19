@@ -10,7 +10,7 @@ const getTemplate = name => handlebars.compile(readFile(name))
 
 const mail = {
   FROM: 'Grow2 <noreply@grow2.com.au>',
-  TO: 'ravenda900@gmail.com',
+  TO: 'darshakshah1988@gmail.com',
   welcome: {
     subject: name => `Grow2 registration`,
     text: getTemplate('welcome.txt'),

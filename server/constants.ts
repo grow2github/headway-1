@@ -13,10 +13,10 @@ export const PORT = process.env.PORT || 5000
 export const AWS_CONFIG = {
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-  region: 'ap-southeast-1'
+  region: 'ap-south-1'
 }
 
-export const S3_BUCKET = 'headway-s3'
+export const S3_BUCKET = 'grow2-s3'
 
 export const UPLOAD_DIRECTORY = './uploads'
 

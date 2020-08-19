@@ -120,7 +120,7 @@ export const mockAdminLogin = (req, res, next) => {
   req.isAuthenticated = () => true // =\
   req.user = {
     admin: {
-      id: 3
+      id: 2
     }
   }
   next()
